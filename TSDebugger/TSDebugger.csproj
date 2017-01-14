@@ -60,7 +60,6 @@
       <DependentUpon>ConnectDialog.cs</DependentUpon>
     </Compile>
     <Compile Include="TSConductorClient.cs" />
-    <Compile Include="TSVariable.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
