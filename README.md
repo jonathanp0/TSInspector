@@ -1,6 +1,8 @@
 # TSInspector
 A tool for experimenting with the Rail Simulator External Interface API. It communicates with Train Simulator via a TSConductor server so that inspection of the simulation state can be easily done on a seperate computer whilst the simulator is in operation.
 
+[Download here](https://github.com/jonathanp0/TSInspector/releases)
+
 [![TS Inspector.png](https://s30.postimg.org/tyvpo8329/TS_Inspector.png)](https://postimg.org/image/db47lq8al/)
 
 ## User Guide
