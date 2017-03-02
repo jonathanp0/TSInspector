@@ -73,8 +73,10 @@ namespace TSDebugger
             writer.AutoFlush = true;
 
             await writer.WriteAsync("EnableMessageLengthHeader()<END>");
+            await Task.Delay(500);
             String setClientCall = "SetClientName(" + clientName + ")<END>";
-            //await writer.WriteAsync(setClientCall);
+            await writer.WriteAsync(setClientCall);
+            await Task.Delay(500);
         }
 
         public void Disconnect()
